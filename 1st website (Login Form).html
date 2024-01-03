@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Login </title>
+
+    <style type="text/css">
+        * {
+            margin: 0%;
+            padding: 0%;
+            font-family: sans-serif;
+        }
+
+        body {
+            background: url(./Img/parallax-1.jpg);
+            background-size: 160%;
+            background-position: top;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 75vh;
+        }
+
+        div.main {
+            width: 260px;
+            margin: 100px auto 0px auto;
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
+            color: rgb(237, 236, 236);
+            padding: 35px;
+            height: 300px;
+            backdrop-filter: blur(20px);
+        }
+
+        h1 {
+            font-size: 25px;
+            text-align: center;
+            padding: 3px;
+            border: 1px solid #221d7e;
+            border-radius: 10px;
+            width: 230px;
+            background-color: #0f0c39;
+            color: rgb(237, 236, 236);
+            font-family: sans-serif;
+        }
+
+        .input-box input {
+            padding: 5px;
+            box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.3);
+            font-family: sans-serif;
+            background: transparent;
+            height: 18px;
+            border: 2px solid #221d7e;
+            outline: none;
+            border-radius: 5px;
+            font-size: 15px;
+            color: #fff;
+            width: 209px;
+        }
+
+        .input-box input::placeholder {
+
+            color: rgb(190, 189, 189);
+        }
+
+        .remember-forgot {
+            display: block;
+            justify-content: space-between;
+            font-size: 14.5px;
+            margin: 5px;
+        }
+
+        .remember-forgot label input {
+
+            margin-right: 5px;
+        }
+
+        .btn {
+            width: 220px;
+            border: none;
+            border-radius: 5px;
+            outline: 0;
+            padding: 7px;
+            background-color: #fff;
+            box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.3);
+            font-size: 16px;
+            font-family: sans-serif;
+            font-weight: 600;
+            background-color: #2e2990;
+            color: rgb(210, 210, 210);
+            cursor: pointer;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+            margin-bottom: 20px;
+        }
+
+        .btn:hover {
+            color: rgb(190, 190, 190);
+        }
+
+        .remember-forgot a {
+
+            color: #3878c2;
+            float: right;
+            text-decoration: none;
+        }
+
+        .remember-forgot a:hover {
+
+            color: #2a68ae;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="main">
+
+        <div class="rejister">
+
+            <h1><b>Login</b></h1><br>
+
+
+            <div class="input-box">
+
+                <input type="text" placeholder="username" required> <br><br>
+
+            </div>
+
+
+            <div class="input-box">
+
+                <input type="password" placeholder="password" required> <br><br>
+
+            </div>
+
+
+            <div class="remember-forgot">
+
+                <label> <input type="checkbox"> remember me </label>
+
+                <a href="#"> <b>forgot password!</b> </a> <br><br>
+
+                &nbsp <button type="submit" class="btn"> login </button>
+
+                <p> Don't have an account: <a href="#"> <b> Register </b>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</a> </p>
+
+</body>
+
+</html>
